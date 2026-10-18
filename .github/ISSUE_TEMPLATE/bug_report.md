@@ -1,23 +1,23 @@
 ---
 name: Bug report
-about: Something in the app, website or your station isn't working
-title: "[BUG] "
-labels: bug
+about: Report a reproducible problem without sensitive information
+title: "[Bug] "
+labels: ''
+assignees: ''
 ---
 
-**What happened**
-<!-- Exact error text if any -->
+## What happened?
 
-**What you expected**
+## Steps to reproduce
 
-**Steps to reproduce**
-1.
-2.
+## Expected behavior
 
-**Where**
-- App version or web page URL:
-- Phone model / browser:
-- Station ID or public wallet address (only if relevant):
+## Version and environment
 
-<!-- Never include recovery words, private keys, tokens, precise location, or screenshots showing them.
-     Security issues: email tony@wrfcoin.com with [SECURITY] in the subject instead of opening an issue. -->
+App version or page URL, operating system, and browser if relevant.
+
+## Safe diagnostic details
+
+Include exact error text and approximate time if useful. Remove recovery words,
+private keys, credentials, tokens, precise locations, and identifying screenshots.
+For suspected vulnerabilities, email security@wrfcoin.com instead of posting here.
