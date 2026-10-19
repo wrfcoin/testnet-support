@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Security issue (private)
-    url: mailto:tony@wrfcoin.com
-    about: Email security reports instead of opening an issue.
+  - name: Private security report
+    url: https://github.com/wrfcoin/testnet-support/blob/main/SECURITY.md
+    about: Email security@wrfcoin.com privately; read the reporting policy here.
