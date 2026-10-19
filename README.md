@@ -11,7 +11,7 @@ Public launch: **2026-10-22**. Testnet WRF has no monetary value, and the networ
 
 ## Start here
 
-Read the [invitee quickstart](https://github.com/wrfcoin/docs/blob/main/testnet/invitee-quickstart-v3.md),
+Read the [public testnet quickstart](https://github.com/wrfcoin/docs/blob/main/testnet/quickstart.md),
 then use the [support guide](SUPPORT.md) to choose a help category.
 Open an [issue](https://github.com/wrfcoin/testnet-support/issues/new/choose) for wallet,
 faucet, station connection, node operator help, or a reproducible bug.

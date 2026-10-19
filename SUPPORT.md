@@ -1,6 +1,6 @@
 # Getting testnet help
 
-Start with the [invitee quickstart](https://github.com/wrfcoin/docs/blob/main/testnet/invitee-quickstart-v3.md)
+Start with the [public testnet quickstart](https://github.com/wrfcoin/docs/blob/main/testnet/quickstart.md)
 and the [WRFCoin website](https://wrfcoin.com). Testnet tokens have no monetary value;
 the network may be reset. Support does not promise a response time or recovery of funds.
 
@@ -15,7 +15,7 @@ Open the [issue chooser](https://github.com/wrfcoin/testnet-support/issues/new/c
 - **Bug report:** other reproducible problems.
 - **Feature request:** suggestions for improvements.
 
-For operator background, read the [operator guide](https://github.com/wrfcoin/docs/blob/main/testnet/operator-guide.md).
+For operator background, read the [quickstart’s node operator section](https://github.com/wrfcoin/docs/blob/main/testnet/quickstart.md#6-running-a-node).
 Describe the app/version, steps taken, expected result, actual result, and safe error
 text. Mention approximately when it happened. Review attachments before posting.
 
