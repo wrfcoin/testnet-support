@@ -1,0 +1,40 @@
+# pr-gate.yml - the one check to require on main. No paths: filter, on purpose:
+# it must report on every PR. Runs a cheap, real repo check (markdown sanity,
+# internal relative links, 5 MB file cap, py/json/yaml/sh syntax):
+# .github/scripts/pr_gate.py
+
+name: testnet-support PR Gate
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pr-gate-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  pr-gate:
+    name: testnet-support PR gate
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install PyYAML
+        run: python -m pip install pyyaml==6.0.2
+
+      - name: Check markdown, links, file sizes and syntax
+        run: python .github/scripts/pr_gate.py .
